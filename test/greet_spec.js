@@ -1,4 +1,4 @@
-var greet = require("../");
+var greet = require("../lib/");
 var mygreet = greet('BranchZero', 1);
 describe('greet', function(){
 	it("should greet a preson by name", function(){
